@@ -36,10 +36,10 @@ OxLib
 
 Ensure it's started before this script in your server.cfg:
 
-```
+
 ensure ox_lib
 ensure ev_vehiclelimiter
-```
+
 
 ## Notes
 Vehicles not listed in Config.Models will not be limited.
