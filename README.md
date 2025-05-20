@@ -25,3 +25,22 @@ Config.Models = {
 
 -- Conversion factor for MPH to m/s
 Config.mphValue = 2.23694  -- For KM/H, use 3.6
+
+
+## Client Logic
+Script checks when the player enters a vehicle (lib.onCache).
+
+If the vehicle model is listed in Config.Models, it converts the MPH to m/s and applies the limit using SetVehicleMaxSpeed.
+
+## Requirements
+OxLib
+
+Ensure it's started before this script in your server.cfg:
+
+``
+ensure ox_lib
+ensure ev_vehiclelimiter
+```
+
+## Notes
+Vehicles not listed in Config.Models will not be limited.
