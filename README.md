@@ -13,7 +13,7 @@ This lightweight client-side script applies specific speed limits to configured 
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config.lua`:
 
