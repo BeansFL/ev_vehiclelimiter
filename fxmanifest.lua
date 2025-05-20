@@ -15,4 +15,7 @@ client_scripts {
     'client/*.lua'
 }
 
-
+-- ox_lib
+dependencies {
+    'ox_lib'
+}
