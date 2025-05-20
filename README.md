@@ -9,7 +9,6 @@ This script applies specific speed limits to configured vehicle models using **O
 - Speed limits are applied automatically when entering a vehicle.
 - Supports speed input in MPH (default), but can be adjusted for KM/H.
 
----
 
 ## ⚙️ Configuration
 
