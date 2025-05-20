@@ -37,7 +37,7 @@ OxLib
 
 Ensure it's started before this script in your server.cfg:
 
-``
+```
 ensure ox_lib
 ensure ev_vehiclelimiter
 ```
